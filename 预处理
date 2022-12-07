@@ -1,0 +1,4 @@
+clang -E main.cpp -o main.i
+gcc -E main.cpp -o main.i
+arm-linux-androideabi-gcc -E main.cpp -o main.i
+VS 可以在Configuration Properties --> C/C++. --> All Options  --> Preprocess to a File 设置为Yes (/P) 
